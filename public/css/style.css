@@ -1,0 +1,53 @@
+.judul {
+    font-size: 24px;
+}
+.kartu {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 28px;
+    background-color: var(--kartu);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+:root{
+    --latar: white;
+    --kartu:gray;
+    --teks:black;
+    --pengirim:navy;
+}
+
+body {
+    background-color: var(--latar);
+    font-family: arial, sans-serif;
+    color: var(--teks);
+}
+body.gelap{
+    --latar:#222222;
+    --kartu:#333333;
+    --teks:white;
+    --pengirim:lightblue;
+}
+
+.pesan {
+    font-size: 20px;
+    line-height: 1.6;
+}
+.pengirim {
+    font-size: 14px;
+    color: var(--pengirim);
+    text-align: right;
+}
+.grup {
+    margin-bottom: 18px;
+}
+#tombolTema {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--kartu);
+    color: var(--teks);
+}
